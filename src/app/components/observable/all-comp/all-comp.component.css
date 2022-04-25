@@ -1,0 +1,30 @@
+p {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list li {
+  padding: 56px 88px;
+  border: 1px double #dda1dd;
+  margin: 0px 24px;
+  border-radius: 20px;
+  -webkit-box-shadow: #dfc8df 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+          box-shadow: #dfc8df 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: purple;
+}
+
+.list li:hover {
+  background-color: #f0e1f3;
+}
+/*# sourceMappingURL=all-comp.component.css.map */
